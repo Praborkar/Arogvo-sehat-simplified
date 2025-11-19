@@ -1,101 +1,137 @@
-Arogvo – Sehat Simplified
+# Arogvo – Sehat Simplified
 
-Arogvo is a React Native–based health & wellness application designed to simplify access to modern healthcare. The app enables users to search doctors, book appointments, track health metrics, store digital medical records, consult online, and access smart wellness guidance — all backed by Firebase’s secure and scalable infrastructure.
+Arogvo is a modern **React Native + Firebase** health & wellness application designed to make healthcare simple and accessible. Users can book doctor appointments, store medical records, track health metrics, and access wellness tips — all from a single app.
 
-🌟 Features
-🔹 Doctor Search & Appointment Booking
+---
 
-Search doctors by specialization, ratings, or city
+## 🚀 Features
 
-View doctor profiles with experience, timings, and fees
+### **Doctor & Appointment System**
+- Search doctors by specialty  
+- Doctor profiles with experience, fees & availability  
+- Instant appointment booking  
 
-Book and manage appointments instantly
+### **Consultations**
+- Chat-based consultations  
+- Prescription upload/download  
+- Video consultation support (upcoming)  
 
-🔹 Online Consultations
+### **Digital Health Records (EHR)**
+- Upload prescriptions & reports  
+- Organized & encrypted storage  
+- Secure cloud access via Firebase Storage  
 
-Secure video/voice consultation support (upcoming)
+### **Smart Health Tracking**
+- Track steps, sleep, mood & vitals  
+- Weekly insights  
+- Medicine reminders  
 
-Chat follow-ups
+### **Emergency Services**
+- One-tap SOS  
+- Emergency contact dialer  
+- Nearby hospital info  
 
-Prescription upload/download support
+### **Personalized Insights**
+- AI-driven tips (future)  
+- Preventive care suggestions  
 
-🔹 Digital Health Records (EHR)
+---
 
-Upload medical reports, prescriptions, test results
+## 🛠 Tech Stack
 
-Auto-categorized storage
+### **Mobile App (Frontend)**
+- React Native  
+- React Navigation  
+- NativeWind / Tailwind CSS  
+- Axios  
+- React Query  
+- Redux Toolkit (optional)
 
-Encrypted data storage using Firebase Security Rules
+### **Cloud (Backend)**
+- Firebase Authentication  
+- Firebase Firestore  
+- Firebase Storage  
+- Firebase Cloud Messaging (FCM)  
+- Firebase Cloud Functions  
 
-🔹 Smart Health Tracker
+---
 
-Track steps, sleep, mood & daily vitals
+## 📂 Project Structure
 
-Smart notifications for medicine reminders
+Arogvo/
+ ├── app/
+ │    ├── screens/
+ │    ├── components/
+ │    ├── navigation/
+ │    ├── hooks/
+ │    ├── assets/
+ │    └── utils/
+ │
+ ├── firebase/
+ │    ├── config.js
+ │    ├── auth.js
+ │    ├── database.js
+ │    └── storage.js
+ │
+ ├── assets/
+ │    └── screenshots/
+ └── README.md
 
-Weekly and monthly health trends
+---
 
-🔹 Emergency Support
+# 📸 Screenshots
 
-One-tap SOS button
+### **🔹 Login & Signup**
 
-Auto-call emergency contacts
+| Login | Signup |
+|-------|--------|
+| <img src="/assets/screenshots/login Screenshot.jpg" width="250" /> | <img src="/assets/screenshots/Signup Screenshot.jpg" width="250" /> |
 
-Nearby hospital detection
+---
 
-🔹 Personalized Health Tips
+### **🔹 Home Dashboard**
 
-AI-driven diet, fitness, and sleep recommendations
+| Home Dashboard |
+|----------------|
+| <img src="/assets/screenshots/Homepage1 Screenshot.jpg" width="260" /> |
 
-Symptom checker (future feature)
+---
 
-Preventive health insights
+### **🔹 Doctor Search**
 
-🛠️ Tech Stack
-📱 Frontend – Mobile App
+| Doctor Search |
+|---------------|
+| <img src="/assets/screenshots/home2 screenshot.jpg" width="260" /> |
 
-React Native
+---
 
-React Navigation
+### **🔹 Appointment**
 
-NativeWind / Tailwind CSS
+| Appointment |
+|-------------|
+| <img src="/assets/screenshots/home3 screenshot.jpg" width="260" /> |
 
-React Query
+---
 
-Redux Toolkit / Context API
+### **🔹 Health Records**
 
-Axios
+| Health Records |
+|----------------|
+| <img src="/assets/screenshots/home4 screenshot.jpg" width="260" /> |
 
-🔥 Backend & Cloud
+---
 
-Firebase Authentication (user login & roles)
+## ⚙️ Installation & Setup
 
-Firebase Firestore (database for all data)
-
-Firebase Storage (medical reports, images)
-
-Firebase Cloud Messaging (FCM) (notifications)
-
-Firebase Cloud Functions (business logic)
-
-🔐 Security
-
-Firebase Security Rules
-
-JWT (optional if integrating Node backend later)
-
-
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+### **1️⃣ Clone Repo**
 git clone https://github.com/Praborkar/arogvo.git
 cd arogvo
 
-2️⃣ Install Dependencies
+### **2️⃣ Install Dependencies**
 npm install
 
-3️⃣ Firebase Setup
-
-Create a .env file:
+### **3️⃣ Add Firebase Config**
+Create .env:
 
 API_KEY=your_api_key
 AUTH_DOMAIN=your_auth_domain
@@ -104,137 +140,63 @@ STORAGE_BUCKET=your_storage_bucket
 MESSAGING_SENDER_ID=your_sender_id
 APP_ID=your_app_id
 
+### **4️⃣ Start App**
+npm run android
+# or
+npm run ios
 
-Import inside Firebase config file (config.js).
+---
 
-4️⃣ Run the App
-npm run android   # for Android
-npm run ios       # for iOS
+# 🗺 Roadmap
 
-## 📸 Screenshots
+### **Phase 1 – Core**
+- [ ] Push notifications (FCM)  
+- [ ] Offline mode (AsyncStorage)  
+- [ ] Improved doctor profiles  
 
-### 🔹 Login & Signup 
-<img src="/assets/screenshots/login Screenshot.jpg" width="100" />  
-<img src="/assets/screenshots/Signup Screenshot.jpg" width="100" />
+### **Phase 2 – Health Features**
+- [ ] Google Fit / HealthKit integration  
+- [ ] Mood tracking  
+- [ ] Daily health score (AI-powered)
 
-### 🔹 Home Dashboard 
-<img src="/assets/screenshots/Homepage1 Screenshot.jpg" width="100" />
+### **Phase 3 – Telemedicine**
+- [ ] In-app video calling  
+- [ ] Live doctor availability  
+- [ ] Doctor dashboard  
 
-### 🔹 Services
-<img src="/assets/screenshots/home2 screenshot.jpg" width="100" />
+### **Phase 4 – User Experience**
+- [ ] Dark mode  
+- [ ] Multi-language support  
+- [ ] Family medical profiles  
 
-### 🔹 Doctor Search
-<img src="/assets/screenshots/home3 screenshot.jpg" width="100" />
+### **Phase 5 – Compliance**
+- [ ] Enhanced security rules  
+- [ ] End-to-end encryption for chat  
 
-### 🔹 Records
-<img src="/assets/screenshots/home4 screenshot.jpg" width="100" />
+### **Phase 6 – Admin & Analytics**
+- [ ] Web Admin Dashboard  
+- [ ] App analytics & reports  
 
-🚀 Deployment
+---
 
-Since Arogvo is a React Native + Firebase project:
+## 🔖 GitHub Topics
+react-native  
+firebase  
+healthcare  
+medical-app  
+telemedicine  
+doctor-appointment  
+ehr  
+digital-health-records  
+health-tracking  
+mobile-app  
+healthtech  
 
-Android Deployment
+---
 
-Generate signed APK / AAB
+## ✨ Author
 
-Upload to Play Console
-
-Add SHA keys to Firebase console
-
-iOS Deployment
-
-Configure Xcode project
-
-Add iOS bundle ID to Firebase
-
-Upload build to TestFlight / App Store
-
-🗺️ Roadmap (Future Enhancements)
-📅 Phase 1 — Core Enhancements
-
- Improved doctor profile UI
-
- Add Firebase Cloud Messaging (push notifications)
-
- Offline mode with AsyncStorage
-
- Skeleton loaders for all pages
-
-📅 Phase 2 — Health Data Improvements
-
- Integration with Google Fit / Apple HealthKit
-
- Mood tracking module
-
- AI-generated daily health score
-
-📅 Phase 3 — Telemedicine Features
-
- In-app video consultation using WebRTC
-
- Live doctor availability
-
- Secure document sharing in chat
-
- Doctor dashboard mobile version
-
-📅 Phase 4 — User Experience Upgrades
-
- Multi-language support (EN/HI/BN)
-
- Dark mode
-
- Family health profiles
-
- Auto reminders via Cloud Functions
-
-📅 Phase 5 — Security & Compliance
-
- HIPAA-style enhancements
-
- End-to-end encrypted chat
-
- Access logs for records (audit trail)
-
-📅 Phase 6 — Admin & Analytics
-
- Admin web dashboard
-
- Real-time analytics (engagement, retention)
-
- Doctor performance reports
-
-📅 Phase 7 — Monetization
-
- In-app payments (Razorpay / Stripe)
-
- Consultation fees system
-
- Referral system
-
- Subscription-based premium features
-
-🏷️ GitHub Topics
-healthcare
-medical-app
-react-native
-firebase
-health-app
-telemedicine
-doctor-appointment
-online-consultation
-ehr
-emr
-digital-health-records
-health-tracking
-wellness-app
-mobile-development
-healthtech
-
-✨ Author
-
-Prabor Kar
-Full-Stack & Mobile App Developer
-GitHub: https://github.com/Praborkar
-
+**Prabor Kar**  
+Full-Stack & Mobile App Developer  
+GitHub: https://github.com/Praborkar  
 Portfolio: https://prabor.netlify.app/
