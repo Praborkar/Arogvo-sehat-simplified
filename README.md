@@ -56,29 +56,6 @@ Arogvo is a modern **React Native + Firebase** health & wellness application des
 
 ---
 
-## 📂 Project Structure
-
-Arogvo/
- ├── app/
- │    ├── screens/
- │    ├── components/
- │    ├── navigation/
- │    ├── hooks/
- │    ├── assets/
- │    └── utils/
- │
- ├── firebase/
- │    ├── config.js
- │    ├── auth.js
- │    ├── database.js
- │    └── storage.js
- │
- ├── assets/
- │    └── screenshots/
- └── README.md
-
----
-
 # 📸 Screenshots
 
 ### **🔹 Login & Signup**
