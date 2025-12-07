@@ -186,10 +186,15 @@ export default function Home() {
 
           {/* Buttons */}
           <View style={styles.aiActionRow}>
+<<<<<<< HEAD
             
             {/* 🔥 UPDATED MIC BUTTON */}
             <TouchableOpacity style={styles.aiMicBtn}>
               <Ionicons name="mic-outline" size={22} color={PRIMARY} />
+=======
+            <TouchableOpacity style={styles.aiMicBtn}>
+              <Text style={{ fontSize: 20 }}>🎙️</Text>
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.aiCameraBtn}>
@@ -316,6 +321,10 @@ const renderAppointment = (speciality, doctorName, date, time, status) => (
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: LIGHT },
 
+<<<<<<< HEAD
+=======
+  /* HEADER */
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
   headerWrapper: {
     backgroundColor: "#5b8c80ff",
     paddingTop: 55,
@@ -408,7 +417,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     borderRadius: 10,
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
   bannerBtnText: { color: PRIMARY, fontWeight: "700" },
 
   /* SECTION HEADER */
@@ -483,7 +495,10 @@ const styles = StyleSheet.create({
     marginTop: 12,
     elevation: 1,
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
   serviceLearnText: { fontSize: 13, fontWeight: "700", color: PRIMARY },
 
   /* AI CONSULTATION */

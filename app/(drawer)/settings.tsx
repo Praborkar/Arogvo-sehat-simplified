@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { BlurView } from "expo-blur";
 import { LinearGradient } from "expo-linear-gradient";
@@ -204,3 +205,14 @@ const styles = StyleSheet.create({
     color: "#1F2D2E",
   },
 });
+=======
+import { Text, View } from "react-native";
+
+export default function SettingsScreen() {
+  return (
+    <View style={{ flex: 1, padding: 20 }}>
+      <Text style={{ fontSize: 26, fontWeight: "700" }}>Settings</Text>
+    </View>
+  );
+}
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f

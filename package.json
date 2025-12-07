@@ -1,5 +1,6 @@
 {
   "name": "arogvo",
+<<<<<<< HEAD
   "version": "1.0.0",
   "private": true,
   "description": "Arogvo is a modern **React Native + Firebase** health & wellness application designed to make healthcare simple and accessible. Users can book doctor appointments, store medical records, track health metrics, and access wellness tips — all from a single app.",
@@ -7,6 +8,10 @@
   "author": "",
   "type": "commonjs",
   "main": "expo-router/entry",
+=======
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -25,7 +30,10 @@
     "@react-navigation/stack": "^7.6.4",
     "expo": "~54.0.23",
     "expo-auth-session": "~7.0.8",
+<<<<<<< HEAD
     "expo-blur": "~15.0.8",
+=======
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
     "expo-constants": "~18.0.10",
     "expo-font": "~14.0.9",
     "expo-haptics": "~15.0.7",
@@ -63,5 +71,10 @@
     "eslint": "^9.25.0",
     "eslint-config-expo": "~10.0.0",
     "typescript": "~5.9.2"
+<<<<<<< HEAD
   }
+=======
+  },
+  "private": true
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
 }

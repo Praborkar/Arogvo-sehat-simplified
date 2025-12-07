@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import React from "react";
 import {
@@ -387,3 +388,14 @@ const styles = StyleSheet.create({
   },
 });
 
+=======
+import { Text, View } from "react-native";
+
+export default function ReportsScreen() {
+  return (
+    <View style={{ flex: 1, padding: 20 }}>
+      <Text style={{ fontSize: 26, fontWeight: "700" }}>Reports</Text>
+    </View>
+  );
+}
+>>>>>>> d1de87fdded42449ce63ba0066ee90b2dc0c680f
